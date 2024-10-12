@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2024-10-12T02:06:39.9434321Z</Created>
+    <Created>2024-10-12T02:38:16.4505405Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -56,7 +56,10 @@
       <HeaderName />
       <HeaderVersion>0.1</HeaderVersion>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
-  <Section Name="Static" />
+  <Section Name="Static">
+    <Member Name="bool_Input1" Datatype="Bool" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+    <Member Name="int_Input1" Datatype="Int" Remanence="NonRetain" Accessibility="Public"><AttributeList><BooleanAttribute Name="ExternalAccessible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalVisible" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="ExternalWritable" SystemDefined="true">true</BooleanAttribute><BooleanAttribute Name="SetPoint" SystemDefined="true">false</BooleanAttribute></AttributeList></Member>
+  </Section>
 </Sections></Interface>
       <IsOnlyStoredInLoadMemory>false</IsOnlyStoredInLoadMemory>
       <IsRetainMemResEnabled>false</IsRetainMemResEnabled>
